@@ -15,3 +15,5 @@ Deploy to AWS.
 ```
 yarn deploy
 ```
+
+[![asciicast](https://asciinema.org/a/XY3ElLm9kXrWmTkCign9QuyMx.svg)](https://asciinema.org/a/XY3ElLm9kXrWmTkCign9QuyMx)

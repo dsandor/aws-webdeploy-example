@@ -8,7 +8,7 @@
   },
   "webdeploy": {
     "distPath": "./dist",
-    "resourcePrefix": "test-web-stack",
+    "resourcePrefix": "test-awswd",
     "indexDocument": "index.html"
   },
   "dependencies": {
