@@ -1,0 +1,17 @@
+{
+  "name": "aws-webdeploy-example",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "cdk deploy --app node_modules/aws-webdeploy/deploy.js",
+    "dry-run": "cdk synth --app node_modules/aws-webdeploy/deploy.js"
+  },
+  "webdeploy": {
+    "distPath": "./dist",
+    "resourcePrefix": "test-web-stack",
+    "indexDocument": "index.html"
+  },
+  "dependencies": {
+    "aws-webdeploy": "^1.0.2"
+  }
+}
